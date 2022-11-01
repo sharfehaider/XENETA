@@ -1,0 +1,10 @@
+FROM python:3.8-slim-buster
+ADD *.py *.pyc /code/
+WORKDIR /app
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
+RUN pip3 install -U gunicorn
+COPY . .
+EXPOSE 3000
+CMD ["gunicorn"  , "-b", "0.0.0.0:3000", "wsgi"]
+
