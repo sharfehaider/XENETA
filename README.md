@@ -16,7 +16,11 @@ sudo apt install ansible
 
 Make sure that port 5432 and port 3000 are free to run database and API 
 
+After cloning this repo
+
 simply run this command in root folder 
+
+cd XENETA
 
 ansible-playbook docker-playbook.yml
 
