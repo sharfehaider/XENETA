@@ -9,7 +9,9 @@ Ansible must be installed on the system on which you will be running this code
 Following are commands to install ansible
 
 sudo apt-add-repository ppa:ansible/ansible
+
 sudo apt update
+
 sudo apt install ansible
 
 Make sure that port 5432 and port 3000 are free to run database and API 
