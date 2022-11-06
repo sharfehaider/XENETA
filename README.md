@@ -36,3 +36,4 @@ curl "http://127.0.0.1:3000/rates?date_from=2021-01-01&date_to=2021-01-31&orig_c
 
 Both api and database are dockerized. They are connected in a docker file, where they are communicating with each other to produce the required results. 
 This ansible playbook installs all the required configurations for this application to run. Database is running in the docker, it takes the dump from the folder when we build it while running the docker-compose. 
+Usually we keep the environment variables in the gitignore, but here we have psued them here for testing and understanding.
