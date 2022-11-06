@@ -2,10 +2,5 @@ FROM postgres:13.5-alpine
 ENV POSTGRES_HOST_AUTH_METHOD=trust
 ENV POSTGRES_DB=rates
 ENV POSTGRES_USER=postgres
-<<<<<<< HEAD
 COPY init.sql rates.sql /docker-entrypoint-initdb.d/
-#COPY init.sql /docker-entrypoint-initdb.d/
 
-=======
-COPY rates.sql /docker-entrypoint-initdb.d/
->>>>>>> a5dc2352cca27560238bff747baa3e914a7bc4f3
