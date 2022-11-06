@@ -57,3 +57,8 @@ Once ssh will be done then on terminal one can run the following command to get 
  ```bash
 curl "http://127.0.0.1:3000/rates?date_from=2021-01-01&date_to=2021-01-31&orig_code=CNGGZ&dest_code=EETLL"
 ```
+run following command to destroy infra
+
+```bash
+terraform destroy
+```
