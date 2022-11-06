@@ -89,7 +89,7 @@ Fargate will be taking care of itself, as its fully managed service so it will b
  
 I have designed the architecture keeping an eye on the future requirements. But incorporation of new data sources and business logic could affect the existing architecture. But we might not need to update too many components. I believe we might need to update the existing source code but the rest of the architecture, more or less, would remain the same.
 
-####How would you restructure and scale the system to address those?
+#### How would you restructure and scale the system to address those?
 
 It totally depends upon the use-case.
  
