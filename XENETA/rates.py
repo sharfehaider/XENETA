@@ -14,7 +14,9 @@ def get_db_conn(db_config):
         "dbname='{}' user='{}' host='{}'".format(
             db_config["name"],
             db_config["user"],
-            db_config["host"]
+            db_config["host"],
+            db_config["password"]
+            
         )
     )
 

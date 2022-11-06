@@ -1,6 +1,7 @@
 DB = {
     "name": "rates",
-    "user": "postgres",
-    "host": "db"
+    "user": "xeneta",
+    "host": "db",
+    "password": "xeneta"
 }
 
